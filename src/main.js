@@ -11,6 +11,9 @@ import 'element-ui/lib/theme-chalk/display.css'
 Vue.use(ElementUI)
 Vue.config.productionTip = false
 
+// 全局mock接口
+import './mock'
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

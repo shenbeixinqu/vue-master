@@ -1,12 +1,12 @@
 <template>
-  <el-scoller class="app-wrapper">
+  <el-scrollbar class="app-wrapper">
       <navbar></navbar>
       <sidebar></sidebar>
       <div class="main-container">
           <tabs-view></tabs-view>
           <app-main></app-main>
       </div>
-  </el-scoller>
+  </el-scrollbar>
 </template>
 
 <script>
